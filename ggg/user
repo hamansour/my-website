@@ -1,0 +1,52 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="ggg.WebForm1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        #form1 {
+            height: 641px;
+            width: 689px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div dir="rtl" style="height: 625px; background-color: #E8E8FF; text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 22px; font-weight: normal; font-style: normal; color: #000066; width: 690px;">
+        &nbsp;<asp:Image ID="Image1" runat="server" Height="128px" ImageAlign="Middle" ImageUrl="~/pic/Picture1.png" Width="124px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;...ابحث عن طبيبك بسهولة...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <br />
+            ادخل اسم الطبيب
+            <br />
+            <br />
+&nbsp;<asp:TextBox ID="TextBox1" runat="server" BackColor="#E8E8FF" BorderColor="#000066" ForeColor="#000066" Height="37px" Width="294px"></asp:TextBox>
+            <br />
+&nbsp;<asp:Button ID="Button4" runat="server" BackColor="#AF9EEB" BorderColor="#333399" Height="34px" Text="بحــــــث" Width="164px" />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            ابحث في التخصصات
+            <br />
+            <br />
+            <asp:Button ID="Button1" runat="server" BackColor="#AF9EEB" BorderColor="#333399" Height="39px" Text="التخصصات" Width="181px" />
+            <br />
+            <br />
+&nbsp;<asp:Button ID="Button2" runat="server" BackColor="#AF9EEB" BorderColor="#333399" Height="39px" Text="تسجيل الخروج" Width="181px" />
+&nbsp;<br />
+            <br />
+            <br />
+            <br />
+            <br />
+        </div>
+    </form>
+</body>
+</html>
